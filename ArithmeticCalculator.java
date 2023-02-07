@@ -23,19 +23,19 @@ public class ArithmeticCalculator {
 			
 			Calculator obj=new Calculator();
 			switch(op) {
-			case "+": res=obj.Addition(x,y);
+			case "+": res=obj.addition(x,y);
 			System.out.println(res);
 			break;
-			case "-": res=obj.Subtraction(x,y);
+			case "-": res=obj.subtraction(x,y);
 			System.out.println(res);
 			break;
-			case "*": res=obj.Multiplication(x,y);
+			case "*": res=obj.multiplication(x,y);
 			System.out.println(res);
 			break;
-			case "/": res1=obj.Division(x,y);
+			case "/": res1=obj.division(x,y);
 			System.out.println(res1);
 			break;
-			case "%": res=obj.Modulus(x,y);
+			case "%": res=obj.modulus(x,y);
 			System.out.println(res);
 			break;
 			default: System.out.println("invalid operation");
