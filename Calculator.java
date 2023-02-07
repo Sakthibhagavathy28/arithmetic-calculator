@@ -1,17 +1,17 @@
 package arithmeticcalculator;
 
 public class Calculator {
-	public int Addition(int n1, int n2) {
+	public int addition(int n1, int n2) {
 		int n3=n1+n2;
 		return n3;
 	}
-	public int Subtraction(int n1,int n2) {
+	public int subtraction(int n1,int n2) {
 		return n1-n2;
 	}
-	public int Multiplication(int n1,int n2) {
+	public int multiplication(int n1,int n2) {
 		return n1*n2;
 	}
-	public float Division(int n1,int n2) {
+	public float division(int n1,int n2) {
 		if(n2==0) {
 			System.out.println("number cannot be divided by 0;");
 		}
@@ -23,7 +23,7 @@ public class Calculator {
 		}
 		return 0;
 	}
-	public int Modulus(int n1,int n2) {
+	public int modulus(int n1,int n2) {
 		if(n2==0) {
 			System.out.println("number cannot be divided by 0;");
 		}
